@@ -1,0 +1,409 @@
+body{
+    margin: 0;
+}
+.head{
+    background-color: rgb(255, 255, 255);
+    height: 95px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.left{
+    width: 67%;
+    float: left;
+    height: 95px;
+}
+.right{
+    width: 33%;
+    float: left;
+    height: 95px;
+}
+#img1{
+    height: 50px;
+    padding-left: 43px;
+    padding-top: 25px ;
+    float: left;
+}
+nav{
+    display: flex;
+    padding-left: 29px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 21px;
+    font-size: 9px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.87);
+    unicode-bidi: isolate;
+    letter-spacing: 1.84px;
+    cursor: pointer;
+}
+nav :hover{
+    color: #137d43;
+}
+.rewards{
+    padding-left: 17px;
+    padding-top: 10px;
+}
+.gift{
+    padding-left: 17px;
+    padding-top: 10px;
+}
+.menu{
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    float: left;
+}
+.a1{
+    display: flex;
+    height: 26px;
+    margin-left: 10px;
+    margin-top: 27px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+svg{
+    width: 24px;
+    margin-left: 1px;
+    margin-top: 10px;
+    height: 25px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.h41{
+    margin-left: 6px;
+    margin-top: 14px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    float: left;
+}
+.a1 :hover{
+    color: #137d43;
+}
+svg :hover{
+    color: #137d43;
+}
+.button1{
+    float: left;
+    margin-left: 184px;
+    margin-top: -17px;
+    border: 1px solid black;
+    height: 31px;
+    width: 75px;
+    border-radius: 123px;
+    font-weight: 10px;
+    float: left;
+    cursor: pointer;
+    background-color: white;
+}
+.button1:hover{
+    transition: 0s background-color;
+    background-color: rgba(128, 128, 128, 0.187);
+}
+.button2{
+    float: left;
+    margin-left: 274px;
+    border: 1px solid black;
+    margin-top: -31px;
+    height: 31px;
+    width: 86px;
+    border-radius: 32px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0s background-color;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.button2:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+.body1{
+    height: 369px;
+    padding-top: 33px;
+}
+.left1{
+    width: 50%;
+    float: left;
+    height: 369px;
+}
+.right1{
+    width: 50%;
+    float: left;
+    background-color: #006241;
+    height: 369px;
+}
+.imgphone{
+    height: 369px;
+    width:100%; 
+}
+.h11{
+    font-family:"Bold, Oblique, Paragraph, Sans, Grotesque";
+    color: white;
+    text-align: center;
+    padding-top: 65px;
+    font-size: 26px;
+}
+.p1{
+    text-align: center;
+    color:  rgb(255, 255, 255);
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    unicode-bidi: isolate;
+    line-height: 1.75;;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.button3{
+    margin-left: 274px;
+    margin-top: -31px;
+    height: 31px;
+    width: 86px;
+    border-radius: 32px;
+    color: white;
+    background-color:rgba(0, 0, 0, 0);
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    font-weight: 900;
+    border-right-style:solid ;
+    border-top-style: solid;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.button3:hover{
+    background-color: #013121;
+    transition: 0s background-color;
+}
+.body2{
+   width: 100%;
+}
+.left2{
+    width: 50%;
+    float: left;
+    height: 543px;
+    margin-top: 33px;
+    background-color: #a3029a;
+}
+.right2{
+    width: 50%;
+    height: 543px;
+    float: left;
+    margin-top: 33px;
+}
+.h12{
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 105px;
+    font-size: 50px;
+    height: 98px;
+    letter-spacing: 2px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.p2{
+    color: white;
+    text-align: center;
+    line-height: 36px;
+    font-size: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.order{
+    margin-left: 263px;
+    height: 31px;
+    width: 86px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #a3029a;
+    color: white;
+    border: 1px solid white;
+    border-radius: 39px;
+    width: 105px;
+    cursor: pointer;
+    font-weight: 900;
+}
+.order:hover{
+    background-color: rgba(128, 128, 128, 0.614);
+    transition: 0s background-color;
+}
+.img2{
+    height: 543px;
+    width: 100%;
+}
+.body3{
+    width: 100%;
+}
+.left3{
+    width: 50%;
+    float: left;
+}
+.right3{
+    width: 50%;
+    background-color: #1e3932;
+    float: left;
+    height: 368px;
+    margin-top: 34px;
+}
+.img3{
+    width: 100%;
+    margin-top: 34px;
+    height: 368px;
+    float:left;
+}
+.h13{
+    color: #efebe7;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 40px;
+}
+.p3{
+    color: #efebe7;
+    text-align: center;
+    display: block;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    padding-top: 15px;
+    line-height: 32px;
+}
+.order2{
+    margin-left: 263px;
+    height: 33px;
+    width: 89px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #1e3932;
+    color: white;
+    border: 1px solid white;
+    border-radius: 39px;
+    cursor: pointer;
+    width: 105px;
+    font-weight: 900;
+}
+.order2:hover{
+    background-color: #124f3f;
+}
+.body4{
+    width: 100%;
+}
+.left4{
+    width: 50%;
+    background-color: #97d8b1;
+    margin-top: 33px;
+    height: 307px;
+    float: left;
+    padding-top: 61px;
+}
+.h14{
+    color: rgb(30, 57, 50);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.p4{
+    color: rgb(30, 57, 50);
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 33.25px;
+    font-family:SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.learnbutton{
+    margin-left: 263px;
+    height: 33px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #97d8b1;
+    color:rgb(30, 57, 50);
+    border: 1px solid rgb(30, 57, 50);
+    border-radius: 39px;
+    width: 114px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 12px;
+}
+.learnbutton:hover{
+    background-color: rgba(128, 128, 128, 0.13);
+}
+.img4{
+    width: 50%;
+    margin-top: 33px;
+}
+.p5{
+    text-align: center;
+    display: block;
+    line-height: 25.2px;
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px ;
+    font-size: 14px;
+    margin-top: 52px;
+    padding-bottom: 29px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.body5{
+    height: 450px;
+    width: 100%;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px ;
+    box-sizing: border-box;
+    margin-inline-end: 10px;
+}
+.headr{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 19px;
+    padding-bottom: 11px;
+    padding-top: 10px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+} 
+.raw1{
+    margin-inline-end: 25px;
+    list-style-type: none;
+    list-style: none;
+    float: left;
+    font-size: 15px;
+    line-height:50px;
+    margin-top: 1px;
+    color: rgba(0, 0, 0, 0.58);
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+    cursor: pointer;
+}
+li:hover{
+    color: black;
+}
+.footer1st{
+    margin-top: 25px;
+    float: left;
+}
+.footer1{
+    float: left;
+    margin-inline-end: 25px;
+    list-style-type: none;
+    height: 35px;
+    cursor: pointer;
+    padding-bottom: 27px;
+}
+.imgfooter{
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+.footer2{
+    margin-top:1px ;
+    line-height: 45px;
+    cursor: pointer;
+    list-style-type: none;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.footer2:hover{
+    text-decoration: underline;
+}
+.p6{
+    color: grey;
+    padding-top: 10px;
+}
+
